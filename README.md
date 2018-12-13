@@ -1,6 +1,7 @@
-i dont know abou oding everything is from internet sources.
+i dont know about coding, everything is grabed from sources all around internet.
 
-Thanks for guides belongs to 
+Thanks for guides belongs to:
+
 	Bohemia Interactive for Arma series and DayZ
 	Arksenor for DayZCommunityOfflineMode
 	Matthew Longtime for guides
