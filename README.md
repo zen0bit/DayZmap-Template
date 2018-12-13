@@ -1,5 +1,5 @@
 It will contain guide to build map for dayz from scratch.
-Also provide needed files and hot to do them..
+Also provide needed files and how to do them..
 
 
 
