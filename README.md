@@ -7,34 +7,16 @@ DayZCommunityOfflineMode
 -mission=.\Missions\DayZCommunityOfflineMode.ChernarusPlus -scrAllowFileWrite
 
 L3DT
-
-	making a fantasy island can all be created using L3DT. If you haven't already I'd suggest following jakerods Atlas tutorial on getting started with terrain builder first. If you have already done that then read on.
-
-	For a basic mask and sat image you don't even need photoshop as L3DT does all the work for you.
-
-	heres a base guide for a simple quick and easy terrain done in two stages.
-
-
-
-Stage 1:
-
+	Stage 1:
 
 	Open L3dT and click new map, then follow the wizard.
-
- 
-
-	or
-
-
+		or
 	File/new/Designable Map
-
- 
-
 	click next. 
 
 Heightfield size:
 
-	this is where you decide on how big you want your map. To begin with I'd recommend going smallish. 512x512 (use the sliders to do this)
+	this is where you decide on how big you want your map. To begin with I'd recommend going smallish. 512x512 (use the 	sliders to do this)
 	then adjust your horizantal scale. This will give you the meter per pixel differentiate. set that to 10 and you have a map just over 5x5 Km, or 26sq Km overall.
 
 	Click next twice and you come to a window showing you map parameters.
@@ -109,9 +91,6 @@ texture map:
 
 
 PMC Terrain Builder Mini Tutorial
-
-ArmA 3 Terrain Builder Mini Tutorial by PMC
-
 Updated for DayZ / terrain builder v1.31.0.139381
 
 	Settings: tools - settings
