@@ -1,4 +1,12 @@
-PMC Terrain Builder Mini Tutorial     -mission=.\Missions\DayZCommunityOfflineMode.ChernarusPlus -scrAllowFileWrite
+DayZCommunityOfflineMode
+
+-mission=.\Missions\DayZCommunityOfflineMode.ChernarusPlus -scrAllowFileWrite
+
+L3DT
+
+
+
+PMC Terrain Builder Mini Tutorial
 
 ArmA 3 Terrain Builder Mini Tutorial by PMC
 
