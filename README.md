@@ -12,6 +12,17 @@ ArmA 3 Terrain Builder Mini Tutorial by PMC
 
 Updated for DayZ / terrain builder v1.31.0.139381
 
+	Settings: tools - settings
+		User settings
+		Data directory: c:\zen0bit
+		Project directory: C:\zen0bit\GrandeTerra
+	Buldozer:
+		.exe file path: D:\Steam\steamapps\common\DayZ\DayZ_x64.exe
+		-buldozer -window -exThreads=0 -mod= -noAsserts -nologs -profiles=P:\Buldozer -cfg=P:\Buldozer\Buldozer.cfg -name=Buldozer
+		data directory: C:\zen0bit
+		
+how to...
+
     mapframes › add mapframe, click ok
     type in project name to properties › name
     type in project root dir to properties › output root folder. (this would be P:\prefix\tag_projectname)
