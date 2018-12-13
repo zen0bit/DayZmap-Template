@@ -1,9 +1,11 @@
 i dont know abou oding everything is from internet sources.
-Thanks for guides belongs to Bohemia Interactive for Arma series and DayZ
-			     Arksenor for DayZCommunityOfflineMode
-                             Matthew Longtime for guides
-			     Jakerod for The Atlas: Guide to ArmA 3 Terrain Making
-			     And a lot more kind people who helping me..
+
+Thanks for guides belongs to 
+	Bohemia Interactive for Arma series and DayZ
+	Arksenor for DayZCommunityOfflineMode
+	Matthew Longtime for guides
+	Jakerod for The Atlas: Guide to ArmA 3 Terrain Making
+	And a lot more kind people who helping me..
 
 Required Tools
 
