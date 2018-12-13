@@ -1,3 +1,7 @@
+It will contain guide to build map for dayz from scratch.
+
+
+
 DayZCommunityOfflineMode
 
 -mission=.\Missions\DayZCommunityOfflineMode.ChernarusPlus -scrAllowFileWrite
