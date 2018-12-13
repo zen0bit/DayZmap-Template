@@ -18,7 +18,7 @@ Updated for DayZ / terrain builder v1.31.0.139381
 		Project directory: C:\zen0bit\GrandeTerra
 	Buldozer:
 		.exe file path: D:\Steam\steamapps\common\DayZ\DayZ_x64.exe
-		-buldozer -window -exThreads=0 -mod= -noAsserts -nologs -profiles=P:\Buldozer -cfg=P:\Buldozer\Buldozer.cfg -name=Buldozer
+		launch parameters: -buldozer -window -nopause -mod= -profiles=<path_to_work_folder-drive>\Buldozer -name=Buldozer
 		data directory: C:\zen0bit
 		
 how to...
