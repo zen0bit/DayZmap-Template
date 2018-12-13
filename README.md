@@ -4,6 +4,7 @@ Thanks for guides belongs to:
 
 	Bohemia Interactive for Arma series and DayZ
 	Arksenor for DayZCommunityOfflineMode
+	Snakeman for PMC ArmA 3 Ultimate Terrain Tutorial
 	Matthew Longtime for guides
 	Jakerod for The Atlas: Guide to ArmA 3 Terrain Making
 	And a lot more kind people who helping me..
