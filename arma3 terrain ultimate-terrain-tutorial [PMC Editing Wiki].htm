@@ -1,0 +1,2007 @@
+<!DOCTYPE html>
+<html dir="ltr" class="js desktop" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>arma3:terrain:ultimate-terrain-tutorial [PMC Editing Wiki]</title>
+    <script async="" src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/analytics.js"></script><script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+    <meta name="generator" content="DokuWiki">
+<meta name="robots" content="index,follow">
+<meta name="keywords" content="arma3,terrain,ultimate-terrain-tutorial">
+<link rel="search" type="application/opensearchdescription+xml" href="https://pmc.editing.wiki/lib/exe/opensearch.php" title="PMC Editing Wiki">
+<link rel="start" href="https://pmc.editing.wiki/">
+<link rel="contents" href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:ultimate-terrain-tutorial&amp;do=index" title="Sitemap">
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="https://pmc.editing.wiki/feed.php">
+<link rel="alternate" type="application/rss+xml" title="Current namespace" href="https://pmc.editing.wiki/feed.php?mode=list&amp;ns=arma3:terrain">
+<link rel="alternate" type="text/html" title="Plain HTML" href="https://pmc.editing.wiki/doku.php?do=export_xhtml&amp;id=arma3:terrain:ultimate-terrain-tutorial">
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="https://pmc.editing.wiki/doku.php?do=export_raw&amp;id=arma3:terrain:ultimate-terrain-tutorial">
+<link rel="canonical" href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:ultimate-terrain-tutorial">
+<link rel="stylesheet" type="text/css" href="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/css.css">
+<!--[if gte IE 9]><!-->
+<script type="text/javascript">/*<![CDATA[*/var NS='arma3:terrain';var JSINFO = {"id":"arma3:terrain:ultimate-terrain-tutorial","namespace":"arma3:terrain"};
+/*!]]>*/</script><style>@media print {#ghostery-purple-box {display:none !important}}</style>
+<script type="text/javascript" charset="utf-8" src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/jquery.php"></script>
+<script type="text/javascript" charset="utf-8" src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/js.php"></script><style id="iris-css">.iris-picker{display:block;position:relative}.iris-picker,.iris-picker *{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input+.iris-picker{margin-top:4px}.iris-error{background-color:#ffafaf}.iris-border{border-radius:3px;border:1px solid #aaa;width:200px;background-color:#fff}.iris-picker-inner{position:absolute;top:0;right:0;left:0;bottom:0}.iris-border .iris-picker-inner{top:10px;right:10px;left:10px;bottom:10px}.iris-picker .iris-square-inner{position:absolute;left:0;right:0;top:0;bottom:0}.iris-picker .iris-square,.iris-picker .iris-slider,.iris-picker .iris-square-inner,.iris-picker .iris-palette{border-radius:3px;box-shadow:inset 0 0 5px rgba(0,0,0,.4);height:100%;width:12.5%;float:left;margin-right:5%}.iris-picker .iris-square{width:76%;margin-right:10%;position:relative}.iris-picker .iris-square-inner{width:auto;margin:0}.iris-ie-9 .iris-square,.iris-ie-9 .iris-slider,.iris-ie-9 .iris-square-inner,.iris-ie-9 .iris-palette{box-shadow:none;border-radius:0}.iris-ie-9 .iris-square,.iris-ie-9 .iris-slider,.iris-ie-9 .iris-palette{outline:1px solid rgba(0,0,0,.1)}.iris-ie-lt9 .iris-square,.iris-ie-lt9 .iris-slider,.iris-ie-lt9 .iris-square-inner,.iris-ie-lt9 .iris-palette{outline:1px solid #aaa}.iris-ie-lt9 .iris-square .ui-slider-handle{outline:1px solid #aaa;background-color:#fff;-ms-filter:"alpha(Opacity=30)"}.iris-ie-lt9 .iris-square .iris-square-handle{background:0;border:3px solid #fff;-ms-filter:"alpha(Opacity=50)"}.iris-picker .iris-strip{margin-right:0;position:relative}.iris-picker .iris-strip .ui-slider-handle{position:absolute;background:0;margin:0;right:-3px;left:-3px;border:4px solid #aaa;border-width:4px 3px;width:auto;height:6px;border-radius:4px;box-shadow:0 1px 2px rgba(0,0,0,.2);opacity:.9;z-index:5;cursor:ns-resize}.iris-strip .ui-slider-handle:before{content:" ";position:absolute;left:-2px;right:-2px;top:-3px;bottom:-3px;border:2px solid #fff;border-radius:3px}.iris-picker .iris-slider-offset{position:absolute;top:11px;left:0;right:0;bottom:-3px;width:auto;height:auto;background:transparent;border:0;border-radius:0}.iris-picker .iris-square-handle{background:transparent;border:5px solid #aaa;border-radius:50%;border-color:rgba(128,128,128,.5);box-shadow:none;width:12px;height:12px;position:absolute;left:-10px;top:-10px;cursor:move;opacity:1;z-index:10}.iris-picker .ui-state-focus .iris-square-handle{opacity:.8}.iris-picker .iris-square-handle:hover{border-color:#999}.iris-picker .iris-square-value:focus .iris-square-handle{box-shadow:0 0 2px rgba(0,0,0,.75);opacity:.8}.iris-picker .iris-square-handle:hover::after{border-color:#fff}.iris-picker .iris-square-handle::after{position:absolute;bottom:-4px;right:-4px;left:-4px;top:-4px;border:3px solid #f9f9f9;border-color:rgba(255,255,255,.8);border-radius:50%;content:" "}.iris-picker .iris-square-value{width:8px;height:8px;position:absolute}.iris-ie-lt9 .iris-square-value,.iris-mozilla .iris-square-value{width:1px;height:1px}.iris-palette-container{position:absolute;bottom:0;left:0;margin:0;padding:0}.iris-border .iris-palette-container{left:10px;bottom:10px}.iris-picker .iris-palette{margin:0;cursor:pointer}.iris-square-handle,.ui-slider-handle{border:0;outline:0}</style>
+<!--<![endif]-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="shortcut icon" href="https://pmc.editing.wiki/lib/tpl/dokuwiki/images/favicon.ico">
+<link rel="apple-touch-icon" href="https://pmc.editing.wiki/lib/tpl/dokuwiki/images/apple-touch-icon.png">
+    <style type="text/css" id="cliqz-adblokcer-css-rules"> :root .adsbygoogle {display:none !important;}</style></head>
+
+<body>
+
+<!-- PMC site specific stuff -->
+<center>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85886019-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script async="" src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/adsbygoogle.js"></script>
+<!-- PMC Tactical Responsive -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5488648257223403" data-ad-slot="8087194820" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+
+    <div id="dokuwiki__site"><div id="dokuwiki__top" class="site dokuwiki mode_show tpl_dokuwiki     ">
+
+        
+<!-- ********** HEADER ********** -->
+<div id="dokuwiki__header"><div class="pad group">
+
+    
+    <div class="headings group">
+        <ul class="a11y skip">
+            <li><a href="#dokuwiki__content">skip to content</a></li>
+        </ul>
+
+        <h1><a href="https://pmc.editing.wiki/doku.php?id=start" accesskey="h" title="[H]"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/logo.png" alt="" width="64" height="64"> <span>PMC Editing Wiki</span></a></h1>
+            </div>
+
+    <div class="tools group">
+        <!-- USER TOOLS -->
+                    <div id="dokuwiki__usertools">
+                <h3 class="a11y">User Tools</h3>
+                <ul>
+                    <li><a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:ultimate-terrain-tutorial&amp;do=login&amp;sectok=" class="action login" rel="nofollow" title="Log In">Log In</a></li>                </ul>
+            </div>
+        
+        <!-- SITE TOOLS -->
+        <div id="dokuwiki__sitetools">
+            <h3 class="a11y">Site Tools</h3>
+            <form action="/doku.php?id=start" accept-charset="utf-8" class="search" id="dw__search" method="get" role="search"><div class="no"><input type="hidden" name="do" value="search"><input type="text" placeholder="Search" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]"><button type="submit" title="Search">Search</button><div id="qsearch__out" class="ajax_qsearch JSpopup" style="display: none;"></div></div></form>            <div class="mobileTools">
+                <form action="/doku.php" method="get" accept-charset="utf-8"><div class="no"><input type="hidden" name="id" value="arma3:terrain:ultimate-terrain-tutorial"><select name="do" class="edit quickselect" title="Tools"><option value="" selected="selected">Tools</option><optgroup label="Page Tools"><option value="edit">Show pagesource</option><option value="revisions">Old revisions</option><option value="backlink">Backlinks</option></optgroup><optgroup label="Site Tools"><option value="recent">Recent Changes</option><option value="media">Media Manager</option><option value="index">Sitemap</option></optgroup><optgroup label="User Tools"><option value="login">Log In</option></optgroup></select><button type="submit" style="display: none;">&gt;</button></div></form>            </div>
+            <ul>
+                <li><a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:ultimate-terrain-tutorial&amp;do=recent" class="action recent" accesskey="r" rel="nofollow" title="Recent Changes [R]">Recent Changes</a></li><li><a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:ultimate-terrain-tutorial&amp;do=media&amp;ns=arma3%3Aterrain" class="action media" rel="nofollow" title="Media Manager">Media Manager</a></li><li><a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:ultimate-terrain-tutorial&amp;do=index" class="action index" accesskey="x" rel="nofollow" title="Sitemap [X]">Sitemap</a></li>            </ul>
+        </div>
+
+    </div>
+
+    <!-- BREADCRUMBS -->
+            <div class="breadcrumbs">
+                                        <div class="trace"><span class="bchead">Trace:</span> <span class="bcsep">•</span> <bdi><a href="https://pmc.editing.wiki/doku.php?id=arma3" class="breadcrumbs" title="arma3">arma3</a></bdi> <span class="bcsep">•</span> <bdi><a href="https://pmc.editing.wiki/doku.php?id=arma3:beginner-editing-guide" class="breadcrumbs" title="arma3:beginner-editing-guide">beginner-editing-guide</a></bdi> <span class="bcsep">•</span> <bdi><a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain" class="breadcrumbs" title="arma3:terrain">terrain</a></bdi> <span class="bcsep">•</span> <span class="curid"><bdi><a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:ultimate-terrain-tutorial" class="breadcrumbs" title="arma3:terrain:ultimate-terrain-tutorial">ultimate-terrain-tutorial</a></bdi></span></div>
+                    </div>
+    
+
+
+    <hr class="a11y">
+</div></div><!-- /header -->
+
+        <div class="wrapper group">
+
+            
+            <!-- ********** CONTENT ********** -->
+            <div id="dokuwiki__content"><div class="pad group">
+                
+                <div class="pageId"><span>arma3:terrain:ultimate-terrain-tutorial</span></div>
+
+                <div class="page group">
+                                                            <!-- wikipage start -->
+                    <!-- TOC START -->
+<div id="dw__toc">
+<h3 class="toggle open" style="cursor: pointer;"><strong><span>−</span></strong>Table of Contents</h3>
+<div style="" aria-expanded="true">
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="#pmc_arma_3_ultimate_terrain_tutorial">PMC ArmA 3 Ultimate Terrain Tutorial</a></div></li>
+<li class="level1"><div class="li"><a href="#required_tools">Required Tools</a></div></li>
+<li class="level1"><div class="li"><a href="#installing_l3dt">Installing L3DT</a></div></li>
+<li class="level1"><div class="li"><a href="#installing_mikero_tools">Installing Mikero Tools</a></div></li>
+<li class="level1"><div class="li"><a href="#installing_arma_3_steam_tools">Installing ArmA 3 Steam Tools</a></div></li>
+<li class="level1"><div class="li"><a href="#configure_terrain_builder">Configure Terrain Builder</a></div></li>
+<li class="level1"><div class="li"><a href="#build_environment">Build Environment</a></div></li>
+<li class="level1"><div class="li"><a href="#layerscfg">Layers.cfg</a></div></li>
+<li class="level1"><div class="li"><a href="#ground_detail_textures">Ground Detail Textures</a></div></li>
+<li class="level1"><div class="li"><a href="#heightmap">Heightmap</a></div></li>
+<li class="level1"><div class="li"><a href="#terrain_builder">Terrain Builder</a></div></li>
+<li class="level1"><div class="li"><a href="#generating_texture_layers">Generating Texture Layers</a></div></li>
+<li class="level1"><div class="li"><a href="#convert_layers_png_fast">Convert Layers PNG Fast</a></div></li>
+<li class="level1"><div class="li"><a href="#buldozer_preview">Buldozer Preview</a></div></li>
+<li class="level1"><div class="li"><a href="#export_wrp">Export WRP</a></div></li>
+<li class="level1"><div class="li"><a href="#configcpp">Config.cpp</a></div></li>
+<li class="level1"><div class="li"><a href="#binarization">Binarization</a></div></li>
+<li class="level1"><div class="li"><a href="#congratulations">Congratulations</a></div></li>
+<li class="level1"><div class="li"><a href="#object_library">Object Library</a></div></li>
+<li class="level1"><div class="li"><a href="#object_placement_single">Object Placement Single</a></div></li>
+<li class="level1"><div class="li"><a href="#object_placement_shapes">Object Placement Shapes</a></div></li>
+<li class="level1"><div class="li"><a href="#terrain_processor">Terrain Processor</a></div></li>
+<li class="level1"><div class="li"><a href="#roads_-_create">Roads - Create</a></div></li>
+<li class="level1"><div class="li"><a href="#roads_-_database_properties">Roads - Database Properties</a></div></li>
+<li class="level1"><div class="li"><a href="#roads_-_export">Roads - Export</a></div></li>
+<li class="level1"><div class="li"><a href="#notes">Notes</a></div></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+
+<h1 class="sectionedit1" id="pmc_arma_3_ultimate_terrain_tutorial">PMC ArmA 3 Ultimate Terrain Tutorial</h1>
+<div class="level1">
+
+<p>
+Same as the legendary <a href="https://pmc.editing.wiki/doku.php?id=falcon4:theater_tutorial" class="wikilink1" title="falcon4:theater_tutorial">Falcon 4 PMC Ultimate Theater Tutorial</a> this PMC ArmA 3 Ultimate Terrain Tutorial will be one stop shop for everything a newbie needs to know about terrain editing.
+</p>
+
+<p>
+If you never have edited arma terrains, by reading this tutorial you will have working terrain in arma3.
+</p>
+
+<p>
+This tutorial is written to be very simple, there is no advanced voodoo 
+magic you need to learn just the plain and simple, most simplest of ways
+ to get terrain created and brought in-game. We will have more advanced 
+stuff elsewhere in PMC Editing Wiki so use the search function.
+</p>
+
+</div>
+
+<h1 class="sectionedit2" id="required_tools">Required Tools</h1>
+<div class="level1">
+
+<p>
+You need a good text editor, image editor, Mikero Tools, L3DT and obviously steam arma3 tools.
+</p>
+
+<p>
+<strong>Do not ever use windows notepad or wordpad to edit text files.</strong> Recommended text editors listed at <a href="https://pmc.editing.wiki/doku.php?id=editing_tools#text_editing" class="wikilink1" title="editing_tools">Editing Tools: Text Editing</a>.
+</p>
+
+<p>
+Most arma3 modders use Photoshop or GIMP to edit their images. GIMP is 
+free, photoshop is not. You can check full list of image editors in <a href="https://pmc.editing.wiki/doku.php?id=editing_tools#image_editing" class="wikilink1" title="editing_tools">Editing Tools: Image Editing</a>.
+</p>
+
+<p>
+Mikero Tools are required for all kinds of arma3 related editing.
+</p>
+
+<p>
+L3DT is used in this tutorial to create three different sets of files (more about it later).
+</p>
+
+<p>
+This tutorial was written (heh) with EditPad Pro and all image editing in the tutorial is done with Photoshop CS6 64bit.
+</p>
+
+<p>
+Note: <a href="https://pmc.editing.wiki/doku.php?id=arma3:tools:addon-builder" class="wikilink1" title="arma3:tools:addon-builder">Addon Builder</a>
+ should not be used to binarize and pack your addon because it does not 
+work properly, it has problems binarizing RVMAT files and textures used 
+from configs. Experienced community members jokingly have named Addon 
+Builder a “Addon Breaker”. Do not use it, use Mikero Tools pboProject 
+instead (we'll cover this in Binarization part).
+</p>
+
+</div>
+
+<h1 class="sectionedit3" id="installing_l3dt">Installing L3DT</h1>
+<div class="level1">
+
+<p>
+You'll find download link from our <a href="https://pmc.editing.wiki/doku.php?id=arma2:terrain:l3dt" class="wikilink1" title="arma2:terrain:l3dt">ArmA 2 Terrain: L3DT</a> page. That page is just a reference, you don't need to read it through for this tutorial.
+</p>
+
+<p>
+Installing using the L3DT installer is easy, not much more to say about 
+it. At the moment of writing this tutorial the free version is v16.05.
+</p>
+
+<p>
+L3DT comes in limited free version, 90 day trial and professional commercial version. You are fine downloading the free version.
+</p>
+
+<p>
+Make a note that free version only allows heightmaps and satellite texture/masks up to 2048 grid/resolution. <strong>You cannot make proper arma3 terrain SATELLITE TEXTURES with 2048 resolution images.</strong> For reference (but you don't have to read this now) <a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:satellite-image-resolution-size-explained" class="wikilink1" title="arma3:terrain:satellite-image-resolution-size-explained">satellite image resolution size explained</a> covers how small or large satellites you need on difference sizes of terrains.
+</p>
+
+</div>
+
+<h1 class="sectionedit4" id="installing_mikero_tools">Installing Mikero Tools</h1>
+<div class="level1">
+
+<p>
+Basic installation guide at <a href="https://pmc.editing.wiki/doku.php?id=arma3:tools:mikero-tools" class="wikilink1" title="arma3:tools:mikero-tools">Mikero Tools</a> page.
+</p>
+
+<p>
+You must install Mikero tools in order to get terrain properly in-game.
+</p>
+
+</div>
+
+<h1 class="sectionedit5" id="installing_arma_3_steam_tools">Installing ArmA 3 Steam Tools</h1>
+<div class="level1">
+
+<p>
+Guide on <a href="https://pmc.editing.wiki/doku.php?id=arma3:tools:installing-steam-arma-3-tools" class="wikilink1" title="arma3:tools:installing-steam-arma-3-tools">Installing Steam ArmA 3 Tools</a> and <a href="https://pmc.editing.wiki/doku.php?id=arma3:tools:setup-p-drive" class="wikilink1" title="arma3:tools:setup-p-drive">Setup P: Drive</a>.
+</p>
+
+<p>
+<strong>Do not skip setting up P: drive properly</strong>, wrongly setup or missing P: drive is the most common cause of issues when developing addons.
+</p>
+
+</div>
+
+<h1 class="sectionedit6" id="configure_terrain_builder">Configure Terrain Builder</h1>
+<div class="level1">
+
+<p>
+We are not ready to do any terrain work yet, first we need to configure terrain builder.
+</p>
+
+<p>
+Start up terrain builder and then follow the buldozer configuration guide in <a href="https://pmc.editing.wiki/doku.php?id=arma3:tools:buldozer" class="wikilink1" title="arma3:tools:buldozer">ArmA 3 Buldozer</a> page regarding terrain builder.
+</p>
+
+<p>
+It is fairly easy, you can pretty much copy paste the launch parameters 
+line from there. You also need to add .exe file path, this would be:
+</p>
+<pre class="code">&lt;steamPath&gt;\SteamApps\common\Arma 3\arma3_x64.exe</pre>
+
+<p>
+Where you again replace &lt;steamPath&gt; with your own steam library path where you installed steam arma 3 tools.
+</p>
+
+</div>
+
+<h1 class="sectionedit7" id="build_environment">Build Environment</h1>
+<div class="level1">
+
+<p>
+Back in ArmA (Armed Assault) times Synide created excellent tutorial about <a href="https://pmc.editing.wiki/doku.php?id=arma:build_environment" class="wikilink1" title="arma:build_environment">ArmA Build Environment</a>.
+ Now that tutorial of course is for arma but you need to read it to 
+understand how the basics of addon building environment works. Do not 
+follow that tutorial but read it as reference reading to expand your 
+arma build environment knowledge.
+</p>
+
+<p>
+<strong>Choosing Your TAG</strong>
+</p>
+
+<p>
+First you need to select a TAG for your project / namespace, this is 
+something obvious like abbreviation of your group or name. For us here 
+at PMC sekret kodelabs its obviously just our organization name “PMC”, 
+so our tag in full is “PMC_” and all addons out there in the wild you 
+see tagged PMC_ are ours.
+</p>
+
+<p>
+You obviously cannot use other peoples tag, so good place to check if tag exists is <a href="http://www.ofpec.com/tags/" class="urlextern" title="http://www.ofpec.com/tags/" rel="nofollow">ofpec.com/tags</a>.
+</p>
+
+<p>
+<strong>In this tutorial we use “TUT” tag for “tutorial” to make things 
+easier to understand, but when you plan on releasing any addons to the 
+community, you must use your own TAG_ name.</strong> So basically your chosen TAG name has no use in this tutorial, its just very important to understand the meaning of addon TAGs.
+</p>
+
+<p>
+Create namespace (TAG) to P: drive with it. So the path would be:
+</p>
+<pre class="code">tut\</pre>
+
+<p>
+and in P: drive it would become with full path to:
+</p>
+<pre class="code">p:\tut\</pre>
+
+<p>
+This is your namespace or prefix, there is not going to be any addon files that arma 3 tools read, only directories.
+</p>
+
+<p>
+In the tut namespace you create directory lets say <strong>tut_tutorial_terrain</strong> so it would be:
+</p>
+<pre class="code">tut\tut_tutorial_terrain\</pre>
+
+<p>
+and you already know how it looks with full P: drive path:
+</p>
+<pre class="code">p:\tut\tut_tutorial_terrain\</pre>
+
+<p>
+Browse to \tut\tut_tutorial_terrain\ and create directory “Source” there, so it will become:
+</p>
+<pre class="code">\tut\tut_tutorial_terrain\source\</pre>
+
+<p>
+Now create file name “$PBOPREFIX$” in this directory, so it will become:
+</p>
+<pre class="code">\tut\tut_tutorial_terrain\$PBOPREFIX$</pre>
+
+<p>
+Yes its a bit odd file name but that how things work in arma land. Now 
+open $PBOPREFIX$ in text editor and write the following line there:
+</p>
+<pre class="code">tut\tut_tutorial_terrain</pre>
+
+<p>
+This is your namespace \ addon name directory, pboprefix file tells arma3_x64.exe where this addon's files can be found.
+</p>
+
+<p>
+Next we will have to download maplegend.png file. This file is used by 
+terrain builder in various satellite things, you can download it from 
+the below link (for example open to a new browser tab and save as).
+</p>
+
+<p>
+Maplegend.png:
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=71758a&amp;media=https%3A%2F%2Fcommunity.bistudio.com%2Fwikidata%2Fimages%2F2%2F2a%2FSurfaceMapLegend.png" class="media" title="https://community.bistudio.com/wikidata/images/2/2a/SurfaceMapLegend.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_028.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Place Maplegend.png image to your P:\ root dir. Make it “maplegend.png” file name. So it would be:
+</p>
+<pre class="code">p:\maplegend.png</pre>
+
+<p>
+NOW we are finally done with the build environment for our project :)
+</p>
+
+</div>
+
+<h1 class="sectionedit8" id="layerscfg">Layers.cfg</h1>
+<div class="level1">
+
+<p>
+Layers.cfg is a file that Terrain Builder uses to setup <strong>G</strong>round <strong>D</strong>etail <strong>T</strong>extures (GDT).
+</p>
+
+<p>
+Browse to \tut\tut_tutorial_terrain\source\ directory and create a 
+“layers.cfg” file there, open it in text editor and copy paste this:
+</p>
+<pre class="code cpp"><span class="kw2">class</span> Layers
+<span class="br0">{</span>
+	<span class="kw2">class</span> tut_grass_green
+	<span class="br0">{</span>
+		texture <span class="sy1">=</span> <span class="st0">""</span><span class="sy4">;</span>
+		material <span class="sy1">=</span> <span class="st0">"tut<span class="es1">\t</span>ut_tutorial_terrain\data<span class="es1">\t</span>ut_grass_green.rvmat"</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+<span class="br0">}</span><span class="sy4">;</span>
+&nbsp;
+<span class="kw2">class</span> Legend
+<span class="br0">{</span>
+	picture <span class="sy1">=</span> <span class="st0">"maplegend.png"</span><span class="sy4">;</span>
+&nbsp;
+	<span class="kw2">class</span> Colors
+	<span class="br0">{</span>
+		tut_grass_green<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span><span class="br0">{</span> <span class="nu0">230</span>, <span class="nu0">230</span>, <span class="nu0">120</span> <span class="br0">}</span><span class="br0">}</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+<span class="br0">}</span><span class="sy4">;</span></pre>
+
+</div>
+
+<h1 class="sectionedit9" id="ground_detail_textures">Ground Detail Textures</h1>
+<div class="level1">
+
+<p>
+<strong>G</strong>round <strong>D</strong>etail <strong>T</strong>extures
+ (GDT) are more detailed than satellite texture, these textures appear 
+close around your character. Further out the satellite texture kicks in.
+</p>
+
+<p>
+Browse to \tut\tut_tutorial_terrain\ and create a new directory called “Data”, so it becomes:
+</p>
+<pre class="code">\tut\tut_tutorial_terrain\data\</pre>
+
+<p>
+Create a “tut_grass_green.rvmat” file there, open it in text editor and copy paste this:
+</p>
+<pre class="code cpp">ambient<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">1</span>, <span class="nu0">1</span>, <span class="nu0">1</span>, <span class="nu0">1</span> <span class="br0">}</span><span class="sy4">;</span>
+diffuse<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">1</span>, <span class="nu0">1</span>, <span class="nu0">1</span>, <span class="nu0">1</span> <span class="br0">}</span><span class="sy4">;</span>
+forcedDiffuse<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span> <span class="nu16">0.02</span>, <span class="nu16">0.02</span>, <span class="nu16">0.02</span>, <span class="nu0">1</span> <span class="br0">}</span><span class="sy4">;</span>
+specular<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span> <span class="br0">}</span><span class="sy4">;</span>
+specularPower <span class="sy1">=</span> <span class="nu0">1</span><span class="sy4">;</span>
+emmisive<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span> <span class="br0">}</span><span class="sy4">;</span>
+&nbsp;
+PixelShaderID <span class="sy1">=</span> <span class="st0">"NormalMapDiffuse"</span><span class="sy4">;</span>
+VertexShaderID <span class="sy1">=</span> <span class="st0">"NormalMapDiffuseAlpha"</span><span class="sy4">;</span>
+&nbsp;
+<span class="kw2">class</span> Stage1
+<span class="br0">{</span>
+	texture <span class="sy1">=</span> <span class="st0">"a3\map_data\gdt_grass_green_nopx.paa"</span><span class="sy4">;</span>
+	uvSource <span class="sy1">=</span> <span class="st0">"tex"</span><span class="sy4">;</span>
+	<span class="kw2">class</span> uvTransform
+	<span class="br0">{</span>
+		aside<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">10</span>, <span class="nu0">0</span>, <span class="nu0">0</span> <span class="br0">}</span><span class="sy4">;</span>
+		up<span class="br0">[</span><span class="br0">]</span>    <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">0</span>, <span class="nu0">10</span>, <span class="nu0">0</span> <span class="br0">}</span><span class="sy4">;</span>
+		dir<span class="br0">[</span><span class="br0">]</span>   <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">10</span> <span class="br0">}</span><span class="sy4">;</span>
+		pos<span class="br0">[</span><span class="br0">]</span>   <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span> <span class="br0">}</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+<span class="br0">}</span><span class="sy4">;</span>
+&nbsp;
+<span class="kw2">class</span> Stage2
+<span class="br0">{</span>
+	texture <span class="sy1">=</span> <span class="st0">"a3\map_data\gdt_grass_green_co.paa"</span><span class="sy4">;</span>
+	uvSource <span class="sy1">=</span> <span class="st0">"tex"</span><span class="sy4">;</span>
+	<span class="kw2">class</span> uvTransform
+	<span class="br0">{</span>
+		aside<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">10</span>, <span class="nu0">0</span>, <span class="nu0">0</span> <span class="br0">}</span><span class="sy4">;</span>
+		up<span class="br0">[</span><span class="br0">]</span>    <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">0</span>, <span class="nu0">10</span>, <span class="nu0">0</span> <span class="br0">}</span><span class="sy4">;</span>
+		dir<span class="br0">[</span><span class="br0">]</span>   <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">10</span> <span class="br0">}</span><span class="sy4">;</span>
+		pos<span class="br0">[</span><span class="br0">]</span>   <span class="sy1">=</span> <span class="br0">{</span> <span class="nu0">0</span>, <span class="nu0">0</span>, <span class="nu0">0</span> <span class="br0">}</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+<span class="br0">}</span><span class="sy4">;</span></pre>
+
+<p>
+What the above along with layers.cfg is doing is to show 
+a3\map_data\gdt_grass_green_co.paa texture around your character on the 
+ground.
+</p>
+
+<p>
+In this tutorial example we are using only one texture to keep it 
+simple, but normal terrains use more, dozens more of these textures. You
+ don't have to worry about that now.
+</p>
+
+<p>
+In our layers.cfg we reference to tut_grass_green.rvmat material file, 
+which again references to the actual texture found in a3\map_data\ 
+directory. This is kind of cool that our terrain doesn't need any actual
+ texture <strong>files</strong> in its pbo, it only references them from another pbo.
+</p>
+
+</div>
+
+<h1 class="sectionedit10" id="heightmap">Heightmap</h1>
+<div class="level1">
+
+<p>
+Heightmap or heightfield or terrain elevations whatever you want to call
+ this is what makes your “terrain” look like, well terrain.
+</p>
+
+<p>
+In this example we use L3DT to create heightmap terrain elevations.
+</p>
+
+<p>
+Start L3DT and click create a new project or hit CTRL-N
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=7ae3a1&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Select-Project-Type.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Select-Project-Type.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_018.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click next (designable map)
+</p>
+
+<p>
+Change width/height both to 512 and click next
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=c742e9&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Heightfield-Size.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Heightfield-Size.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_014.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click next (design map size)
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=984f06&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Design-Map-Size.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Design-Map-Size.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_057.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Design map parameters are easiest to leave default for our tutorial purposes, click next
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=7f260a&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Design-Map-Parameters.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Design-Map-Parameters.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_002.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Tick to enable; heightfield, attributes map and texture map, click next (button turns from OK to next)
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=0ad263&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Calculation-Queue.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Calculation-Queue.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_007.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Texture settings untick “use light map” and click ok
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=9eb266&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Texture-Settings.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Texture-Settings.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_062.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Now L3DT is processing! wait until its done
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=f09e39&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Done-Processing.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Done-Processing.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_017.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+CTRL-S to save the project, browse to \tut\tut_tutorial_terrain\source\ 
+give file name of “tut_tutorial_project”, click save and ok<br>
+
+Select heightfield tab, use CTRL-E to export<br>
+
+Export map select file format ASC, and to file name field type: tut_tutorial_project-heightmap, click ok and click ok
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=132b1f&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Export-Heightmap.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Export-Heightmap.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_047.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Select attributes tab, use CTRL-E to export<br>
+
+Export map select file format BMP, and to file name field type: tut_tutorial_project_satellite_mask_lco, click ok and click ok
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=01eb52&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Export-Attributes-Map.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Export-Attributes-Map.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_044.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Select texture map tab, use CTRL-E to export<br>
+
+Export map select file format BMP, and to file name field type: 
+tut_tutorial_project_satellite_texture_lco, click ok and click ok
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=503cd4&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Export-Texture-Map.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-L3DT-Export-Texture-Map.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_060.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Save project and exit L3DT
+</p>
+
+<p>
+Open ASC heightmap “tut_tutorial_project-heightmap.asc” in text editor and edit the first lines identical to these:
+</p>
+<pre class="code">ncols         512
+nrows         512
+xllcorner     200000.000000
+yllcorner     0.000000
+cellsize      10.000000</pre>
+
+<p>
+Basically you only change the xllcorner value to 200000.
+</p>
+
+<p>
+Your heightmap / heightfield is now done. Also your satellite mask and texture is done, but don't worry about those now.
+</p>
+
+</div>
+
+<h1 class="sectionedit11" id="terrain_builder">Terrain Builder</h1>
+<div class="level1">
+
+<p>
+Now we are using Terrain Builder to compile your terrain source files together.
+</p>
+
+<p>
+<strong>Initial Project Setup</strong>
+</p>
+
+<p>
+Open terrain builder and choose mapframes → add mapframe
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=507975&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Add-Mapframe.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Add-Mapframe.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_025.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+UTM selection click ok
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=5e3b62&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-UTM-Selection.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-UTM-Selection.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_020.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Mapframe Properties select location tab<br>
+
+Properties, type in name: tut_tutorial_terrain<br>
+
+Properties, output root folder (dir), use “…” button to browse: p:\tut\tut_tutorial_terrain\ <br>
+
+Properties, click create subfolders button, click ok<br>
+
+Location, left-bottom corner, set easting to 200000 and northing to 0
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=0ab9c2&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Mapframe-Properties-Location.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Mapframe-Properties-Location.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_049.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Select samplers tab<br>
+
+Terrain sampler → grid size 512 x 512, cell size 10<br>
+
+Satellite/surface mask source images → size (px): 512<br>
+
+Texture layer → size (m): 40 x 40
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=8f43a7&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Mapframe-Properties-Samplers.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Mapframe-Properties-Samplers.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_048.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Select processing tab<br>
+
+Use “…” button to browse into your p:\tut\tut_tutorial_terrain\source\layers.cfg file<br>
+
+Click rebuild terrain button, click yes<br>
+
+Mapframe properties, bottom right, click ok
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=fd64df&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Mapframe-Properties-Processing.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Mapframe-Properties-Processing.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_052.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+On main menu make sure “view mapframes”, “view terrain heightmap”, “view
+ satellite image” and “view surface mask image” buttons are selected.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=76108c&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Menu-Selected-Buttons.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Menu-Selected-Buttons.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_003.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Use file → save project, into \tut\tut_tutorial_terrain\source\TerrainBuilder\ directory, file name tut_tutorial_terrain.tv4p
+</p>
+
+<p>
+<strong>Importing Terrain</strong>
+</p>
+
+<p>
+Use file → import → terrains, browse to 
+\tut\tut_tutorial_terrain\Source\tut_tutorial_project\ and open 
+tut_tutorial_project-heightmap.asc<br>
+
+Layer manager → tut_tutorial_project-heightmap.asc → RMB → terrain coordinates and properties
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=17aa3c&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layer-Manger-RMB.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layer-Manger-RMB.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_013.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Type easting 200000 and northing 0, click ok
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=169611&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Terrain-Coordinates-Properties.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Terrain-Coordinates-Properties.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_019.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+The terrain most likely disappears from view, so on layers manager click fit to view button.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=d8c392&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layer-Manager-Fit-To-View.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layer-Manager-Fit-To-View.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_045.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Now use mapframe properties → processing → rebuild terrain, this button 
+actually generates the terrain into your project, previously you just 
+imported the heightmap ASC. Don't forget to use rebuild terrain button.
+</p>
+
+<p>
+<strong>Importing Satellite Mask</strong>
+</p>
+<ol>
+<li class="level1"><div class="li"> use file → import → surface mask 
+images, browse to \tut\tut_tutorial_terrain\Source\tut_tutorial_project\
+ and open tut_tutorial_project_satellite_mask_lco.bmp</div>
+</li>
+<li class="level1"><div class="li"> layer manager → tut_tutorial_project_satellite_mask_lco → RMB → terrain coordinates &amp; properties</div>
+</li>
+<li class="level1"><div class="li"> make sure easting is 200000, 
+northing 0 and size width/height is 5120 (and NOT 512.000 this is very 
+important difference), click ok</div>
+</li>
+</ol>
+
+<p>
+Again click fit to view to see your newly imported mask image.
+</p>
+
+<p>
+<strong>Importing Satellite Texture</strong>
+</p>
+<ol>
+<li class="level1"><div class="li"> use file → import → satellite 
+images, browse to \tut\tut_tutorial_terrain\Source\tut_tutorial_project\
+ and open tut_tutorial_project_satellite_texture_lco.bmp</div>
+</li>
+<li class="level1"><div class="li"> layer manager → tut_tutorial_project_satellite_texture_lco → RMB → terrain coordinates &amp; properties</div>
+</li>
+<li class="level1"><div class="li"> make sure easting is 200000, 
+northing 0 and size width/height is 5120 (and NOT 512.000 this is very 
+important difference), click ok</div>
+</li>
+</ol>
+
+<p>
+Now its good idea to save your project.
+</p>
+
+</div>
+
+<h1 class="sectionedit12" id="generating_texture_layers">Generating Texture Layers</h1>
+<div class="level1">
+
+<p>
+On mapframes dialog seen below:
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=6cdebc&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Mapframes-Dialog.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Mapframes-Dialog.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_039.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Double click on “tut_tutorial_terrain” your only mapframe. You can also 
+RMB click it and choose properties, but double click is quicker.
+</p>
+
+<p>
+Select processing tab<br>
+
+Tick export satellite texture<br>
+
+Tick export surface mask<br>
+
+Make sure 4 materials per cell and save rvmat files in <abbr title="American Standard Code for Information Interchange">ASCII</abbr> format are selected
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=4dd19c&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Mapframe-Properties-Generate-Layers.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Mapframe-Properties-Generate-Layers.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_012.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click generate layers button and wait…
+</p>
+
+<p>
+Waiting time is practically none because your satellite texture/mask is 
+so tiny (512 x 512 resolution). In future when you increase your 
+satellite resolution, this generating of layers time will increase quite
+ much, so don't get used to this very quick generate layers setup.
+</p>
+
+<p>
+Now terrain builder generated \tut\tut_tutorial_terrain\data\layers\ 
+directory full of rvmat's and PNG images. In our small tutorial its only
+ four of each, on normal terrains this number can rise as high as 
+thousand when the satellite resolution is increased.
+</p>
+
+<p>
+Now you can click mapframe properties ok to close it, then save your project again.
+</p>
+
+</div>
+
+<h1 class="sectionedit13" id="convert_layers_png_fast">Convert Layers PNG Fast</h1>
+<div class="level1">
+
+<p>
+Next we need to convert layers\*.png files to PAA image format. In our 
+example case we could use terrain builder built in feature, however it 
+is essential that we learn how to convert them fast right from the 
+beginning. Once you start to edit larger terrains (larger satellites) 
+you'll understand why this is so important.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:convert-layers-png-fast" class="wikilink1" title="arma3:terrain:convert-layers-png-fast">Convert Layers PNG Fast</a> tutorial shows you how to setup this batch file.
+</p>
+
+<p>
+Browse to \tut\tut_tutorial_terrain\data\ directory and RMB create new text file, name it “_run_png2paa-start.bat”
+</p>
+
+<p>
+Open _run_png2paa-start.bat in text editor and copy paste the code from <a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:convert-layers-png-fast" class="wikilink1" title="arma3:terrain:convert-layers-png-fast">Convert Layers PNG Fast</a>.
+</p>
+
+<p>
+Now just run the _run_png2paa-start.bat batch file and see those PNG's 
+get converted to PAA's very quickly. Super quickly in fact with our 
+tutorial case, but like said don't pay no mind to that now, you'll thank
+ me later :)
+</p>
+
+</div>
+
+<h1 class="sectionedit14" id="buldozer_preview">Buldozer Preview</h1>
+<div class="level1">
+
+<p>
+Now you are ready to view your terrain the first time, not in-game but in the next best thing; the buldozer.
+</p>
+
+<p>
+To start buldozer click the “connect to buldozer” button in main menu.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=0d35a3&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Connect-To-Buldozer.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Connect-To-Buldozer.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Now your buldozer will start and if you have configured terrain builder 
+correctly and your P: drive is setup properly, you'll see your terrain 
+in buldozer window.
+</p>
+
+<p>
+Buldozer view, your looks different of course.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=64017b&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Buldozer.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Buldozer.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_021.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+You can browse around in your terrain, check out <a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:buldozer-controls-keyboard-shortcuts" class="wikilink1" title="arma3:terrain:buldozer-controls-keyboard-shortcuts">buldozer controls keyboard shortcuts</a> for navigation help.
+</p>
+
+<p>
+Like the controls page says, exit buldozer by hitting ALT-F4 or you can 
+click “connect to buldozer” button again which actually this time says 
+“disconnect from buldozer”. Although I think most devs just hit ALT-F4 
+to quickly shut buldozer down, in any case you get another dialog asking
+ for confirmation.
+</p>
+
+</div>
+
+<h1 class="sectionedit15" id="export_wrp">Export WRP</h1>
+<div class="level1">
+
+<p>
+Now that your terrain is working in buldozer, it is time to export the actual WRP file that arma3_x64.exe reads.
+</p>
+
+<p>
+Use CTRL-E or file → export → WRP, browse to \tut\tut_tutorial_terrain\ 
+directory and give file name “tut_tutorial_terrain.wrp”, click save.
+</p>
+
+<p>
+You'll see terrain builder information dialog about status of your 
+exported WRP file, it in our tutorial case says map size 512 and 0 
+objects placed on map.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=2a3916&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Export-WRP.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Export-WRP.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_050.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click ok.
+</p>
+
+<p>
+Now you can (check that you have saved your project, just in case) close
+ the project, file → close, then file → exit (doh!) to shut terrain 
+builder down.
+</p>
+
+<p>
+Now you have new file in the your addon root directory:
+</p>
+<pre class="code">\tut\tut_tutorial_terrain\tut_tutorial_terrain.wrp</pre>
+
+</div>
+
+<h1 class="sectionedit16" id="configcpp">Config.cpp</h1>
+<div class="level1">
+
+<p>
+Config, oh wow, this is going to be a mouthful :)
+</p>
+
+<p>
+Config.cpp is located in the root directory of your addon, right next to
+ a $PBOPREFIX$ file. So lets create it now, file name is always 
+“config.cpp”. Open this file with your text editor and copy paste the 
+following.
+</p>
+
+<p>
+<strong>config.cpp:</strong>
+</p>
+<pre class="code cpp"><span class="kw2">class</span> CfgPatches
+<span class="br0">{</span>
+	<span class="kw2">class</span> tut_tutorial_terrain
+	<span class="br0">{</span>
+		units<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+		weapons<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+		requiredVersion <span class="sy1">=</span> <span class="nu0">1</span><span class="sy4">;</span>
+		requiredAddons<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span>
+		<span class="br0">{</span>
+			<span class="st0">"A3_Map_Stratis"</span>
+		<span class="br0">}</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+<span class="br0">}</span><span class="sy4">;</span>
+&nbsp;
+<span class="kw2">class</span> CfgWorldList
+<span class="br0">{</span>
+	<span class="kw2">class</span> tut_tutorial_terrain<span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+<span class="br0">}</span><span class="sy4">;</span>
+&nbsp;
+<span class="kw2">class</span> CfgWorlds
+<span class="br0">{</span>
+	<span class="kw2">class</span> Stratis<span class="sy4">;</span>
+	<span class="kw2">class</span> tut_tutorial_terrain<span class="sy4">:</span> Stratis
+	<span class="br0">{</span>
+		cutscenes<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+		description <span class="sy1">=</span> <span class="st0">"TUT Tutorial Terrain"</span><span class="sy4">;</span>
+		worldName <span class="sy1">=</span> <span class="st0">"<span class="es1">\t</span>ut<span class="es1">\t</span>ut_tutorial_terrain<span class="es1">\t</span>ut_tutorial_terrain.wrp"</span><span class="sy4">;</span>
+		author <span class="sy1">=</span> <span class="st0">"PMC"</span><span class="sy4">;</span>
+		icon <span class="sy1">=</span> <span class="st0">""</span><span class="sy4">;</span>
+		previewVideo <span class="sy1">=</span> <span class="st0">""</span><span class="sy4">;</span>
+		pictureMap <span class="sy1">=</span> <span class="st0">""</span><span class="sy4">;</span>
+		pictureShot <span class="sy1">=</span> <span class="st0">""</span><span class="sy4">;</span>
+&nbsp;
+		newRoadsShape <span class="sy1">=</span> <span class="st0">"<span class="es1">\t</span>ut<span class="es1">\t</span>ut_tutorial_terrain\data<span class="es1">\r</span>oads<span class="es1">\r</span>oads.shp"</span><span class="sy4">;</span>
+&nbsp;
+		centerPosition<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span>
+		<span class="br0">{</span>
+			<span class="nu0">2560</span>, <span class="nu0">2560</span>
+		<span class="br0">}</span><span class="sy4">;</span>
+		ilsDirection<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span>
+		<span class="br0">{</span>
+			<span class="nu0">0</span>, <span class="nu16">0.08</span>, <span class="nu0">1</span>
+		<span class="br0">}</span><span class="sy4">;</span>
+		ilsPosition<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span>
+		<span class="br0">{</span>
+			<span class="nu0">0</span>, <span class="nu0">0</span>
+		<span class="br0">}</span><span class="sy4">;</span>
+		ilsTaxiIn<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+		ilsTaxiOff<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+		drawTaxiway <span class="sy1">=</span> <span class="nu0">0</span><span class="sy4">;</span>
+		<span class="kw2">class</span> SecondaryAirports<span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+		<span class="kw2">class</span> ReplaceObjects<span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+&nbsp;
+		<span class="kw2">class</span> Sounds
+		<span class="br0">{</span>
+			sounds<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+		<span class="br0">}</span><span class="sy4">;</span>
+&nbsp;
+		<span class="kw2">class</span> Animation
+		<span class="br0">{</span>
+			vehicles<span class="br0">[</span><span class="br0">]</span> <span class="sy1">=</span> <span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+		<span class="br0">}</span><span class="sy4">;</span>
+&nbsp;
+		minTreesInForestSquare <span class="sy1">=</span> <span class="nu0">2</span><span class="sy4">;</span>
+		minRocksInRockSquare <span class="sy1">=</span> <span class="nu0">2</span><span class="sy4">;</span>
+&nbsp;
+		<span class="kw2">class</span> Subdivision<span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+		<span class="kw2">class</span> Names<span class="br0">{</span><span class="br0">}</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+<span class="br0">}</span><span class="sy4">;</span></pre>
+
+<p>
+Important note: if you use pboProject later than v1.73 you must start the <abbr title="Graphical User Interface">GUI</abbr>,
+ go to Setup and untick “-W warnings are errors” tick box. If you do 
+not, this example config.cpp gives error and pboproject fails to pack a 
+pbo. The error you would get is “warning:cfgSurfaces not defined” and 
+“&lt;namespace&gt;\&lt;addon&gt;\config.cpp: there are clutter errors in
+ the config”.
+</p>
+
+</div>
+
+<h1 class="sectionedit17" id="binarization">Binarization</h1>
+<div class="level1">
+
+<p>
+pboProject does binarization and packing of your addon to a pbo.
+</p>
+
+<p>
+Before you can binarize you have to setup destination mod directory. Go 
+to whatever directory you like to place your mods, then create new 
+directory there. On this tutorial purposes we call it (you guessed it!) 
+“tut_tutorial_terrain” but as you must know(?) you can use any dir name 
+you want. In this example we use 
+“c:\arma3projects\tut_tutorial_terrain\” directory. This is now your 
+“destination mod dir”.
+</p>
+
+<p>
+Note: you don't have to create “addons” directory because pboProject does that automatically for you.
+</p>
+
+<p>
+Launch pboProject from Mikero Tools.
+</p>
+
+<p>
+Click Setup, check that engine drop down is for “Arma 3”, every other 
+config should be fine as default (you just installed Mikero Tools, 
+right?).
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=2ad63b&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-pboProject-Setup.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-pboProject-Setup.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_006.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Here is full exclude from pbo line that PMC uses:
+</p>
+<pre class="code">*.psd,*.psb,*.bat,*.rar,*.7z,thumbs.db,*.txt,*.h,*.dep,*.cpp,*.bak,*.tga,*.png,*.log,*.pew,*.hpp,source</pre>
+
+<p>
+Click ok to get back to main menu.
+</p>
+
+<p>
+Click Output mod folder button and browse to the destination mod dir you just created.
+</p>
+
+<p>
+Click Source folder button and browse to P:\tut\tut_tutorial_terrain\ directory. Yes it must be on the P: drive.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=e59ebd&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-pboProject-Ready-To-Crunch.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-pboProject-Ready-To-Crunch.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_051.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Finally click Crunch button to start binarization. If all goes well pboProject should say:
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=bb7ea7&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-pboProject-Binarization-Successful.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-pboProject-Binarization-Successful.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_010.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+With your time and date.
+</p>
+
+<p>
+<strong>Congratulations you have just successfully developed your first ArmA 3 terrain!</strong> :)
+</p>
+
+<p>
+Now you just load arma3 with destination mod dir and you'll see your terrain in the mission editor menu.
+</p>
+
+</div>
+
+<h1 class="sectionedit18" id="congratulations">Congratulations</h1>
+<div class="level1">
+
+<p>
+Congratulations of getting your first arma3 terrain working! :)
+</p>
+
+<p>
+Now you have the base knowledge how to create source files and put them 
+in-game, however currently your terrain has no objects, its just empty.
+</p>
+
+<p>
+Lets continue and add some objects like trees and rocks vegetation stuff there.
+</p>
+
+</div>
+
+<h1 class="sectionedit19" id="object_library">Object Library</h1>
+<div class="level1">
+
+<p>
+In order to place objects you need to create an object template library which reads few properties from any added objects.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=c783b7&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Library-Manager.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Library-Manager.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_043.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Library manager → template libraries → RMB → create library, or simply click “create new template library” button
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=2a25ea&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Library-Manager-Create-New-Template-Library.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Library-Manager-Create-New-Template-Library.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_022.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Give the library a name “a3 structures”<br>
+
+Tick “create new library from directory”<br>
+
+Tick “include subdirectories (recursively)“<br>
+
+For source directory use ”…” button to browse into P:\a3\structures_f\ <br>
+
+Choose colors fill color: red, outline color: black, shape: rectangle
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=ca87cf&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Library-Manager-Create-New-Template-Library-Dialog.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Library-Manager-Create-New-Template-Library-Dialog.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_024.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click ok
+</p>
+
+<p>
+Now “a3 structures” appeared in template libraries.
+</p>
+
+<p>
+Next we repeat the same procedure with very minor cosmetic tweaks which 
+make your terrain builder experience that much nicer, bare with me.
+</p>
+<ol>
+<li class="level1"><div class="li"> library manager → template libraries → RMB → create library</div>
+</li>
+<li class="level1"><div class="li"> give the library a name “a3 rocks”</div>
+</li>
+<li class="level1"><div class="li"> tick “create new library from directory”</div>
+</li>
+<li class="level1"><div class="li"> tick “include subdirectories (recursively)”</div>
+</li>
+<li class="level1"><div class="li"> for source directory use “…” button to browse into P:\a3\rocks_f\</div>
+</li>
+<li class="level1"><div class="li"> choose colors fill color: gray, outline color: black, shape: ellipse, click ok</div>
+</li>
+</ol>
+
+<p>
+On a3\rocks_f\ you will get some duplicate template names, click “automatically rename all” button, click ok.
+</p>
+
+<p>
+Next we create plants vegetation template, using same formula with minor tweaks.
+</p>
+<ol>
+<li class="level1"><div class="li"> library manager → template libraries → RMB → create library</div>
+</li>
+<li class="level1"><div class="li"> give the library a name “a3 plants”</div>
+</li>
+<li class="level1"><div class="li"> tick “create new library from directory”</div>
+</li>
+<li class="level1"><div class="li"> tick “include subdirectories (recursively)”</div>
+</li>
+<li class="level1"><div class="li"> for source directory use “…” button to browse into P:\a3\plants_f\</div>
+</li>
+<li class="level1"><div class="li"> choose colors fill color: green, outline color: black, shape: ellipse, click ok</div>
+</li>
+</ol>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=7f8d4a&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Library-Manager-A3-Structures.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Library-Manager-A3-Structures.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_016.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Library templates created, please save your project.
+</p>
+
+<p>
+Your template libraries were saved in 
+\tut\tut_tutorial_terrain\Source\TerrainBuilder\TemplateLibs\ directory 
+as XML file format. This is not required step for you to do, but it 
+might be good idea to backup those .TML files to safe place so you can 
+use them in future terrain projects without going through all the above 
+three steps one by one.
+</p>
+
+<p>
+In your possible next terrain project first copy the TemplateLibs\ 
+directory with TML files in it to your Source\TerrainBuilder\ directory,
+ then in Terrain Builder just RMB template libraries and choose load 
+library, then select all TML library files found in the directory. Now 
+you have all those premade libraries available to use. So never delete 
+the created .TML files, they can be very useful in the future.
+</p>
+
+</div>
+
+<h1 class="sectionedit20" id="object_placement_single">Object Placement Single</h1>
+<div class="level1">
+
+<p>
+<strong>Place Single Objects</strong>
+</p>
+
+<p>
+On main menu make sure “view scene objects” and “add object” buttons are selected
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=d1083a&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Object-Placement-Main-Menu-Buttons1.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Object-Placement-Main-Menu-Buttons1.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_005.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Layers manager select objects tab, click “add new layer” button
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=e7e432&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layers-Manager-Objects-Add-New-Layer.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layers-Manager-Objects-Add-New-Layer.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_058.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Give it name like “rocks 1”, click ok<br>
+
+Template libraries → click plus sign on “a3 rocks” to open it<br>
+
+Select lets say “BluntStone_01”
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=72da77&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Library-Manager-Template-Selected.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Library-Manager-Template-Selected.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_008.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+LMB click on the scene view where you want to place this object
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=356b6d&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_054.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+This will place selected object on every LMB click. Notice that you 
+might have to zoom in (mouse wheel) closer to see the placed object as 
+its very small and is “hidden” when zoomed out.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=670a4b&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Single-Object-Placement.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Single-Object-Placement.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_023.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click connect to buldozer to open it so you can see how your placed objects look in buldozer.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=c07b7f&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Buldozer-Objects.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Buldozer-Objects.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_055.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+You can select new object from any of the object template libraries and place them as you please.
+</p>
+
+<p>
+Remember to unselect “add object” button when you are finished placing objects so your LMB clicks wont place objects.
+</p>
+
+<p>
+<strong>Select Placed Object(s)</strong>
+</p>
+<ol>
+<li class="level1"><div class="li"> make sure “add object” button is unselected</div>
+</li>
+<li class="level1"><div class="li"> LMB click on object, this selects it and you can see its properties on “properties” (heh) window</div>
+</li>
+</ol>
+
+<p>
+Use CTRL-LMB to add objects into the selection, SHIFT-LMB to remove. Drag a box around objects to select many objects at once.
+</p>
+
+<p>
+<strong>Unselect Object(s)</strong>
+</p>
+
+<p>
+Just click anywhere on the map (make sure not to click on another object, unless that is what you want to select instead).
+</p>
+
+<p>
+<strong>Move / Rotate Objects</strong>
+</p>
+
+<p>
+Once you have selected an object, you can move the object by LMB press 
+&amp; hold and move mouse, release LMB to drop/stop moving the object.
+</p>
+
+<p>
+SHIFT-RMB to rotate the selected object(s). Also SHIFT-ALT-RMB and 
+SHIFT-CTRL-RMB rotate object(s) with different axis (you have to 
+experiment yourself to see the effect).
+</p>
+
+<p>
+<strong>Delete Objects</strong>
+</p>
+
+<p>
+Select object(s) and hit DEL key, object(s) get deleted. Be careful.
+</p>
+
+<p>
+<strong>Delete Objects in Layer</strong>
+</p>
+
+<p>
+You can also mass delete objects from the layers manager. RMB click on “rocks 1” layer and choose clear.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=a4b5a6&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layers-Manager-Clear-Layer.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layers-Manager-Clear-Layer.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_040.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click yes button to delete all objects in the “rocks 1” layer.
+</p>
+
+<p>
+<strong>Delete Layer</strong>
+</p>
+
+<p>
+RMB your layer you want to delete and choose “Remove + delete from HDD” or just click the trashcan “remove layer” button.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=43529e&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layers-Manager-Remove-Layer.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layers-Manager-Remove-Layer.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_061.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Layer gets completely deleted. You cannot delete “default” layer shown in the image, only layers created by you.
+</p>
+
+</div>
+
+<h1 class="sectionedit21" id="object_placement_shapes">Object Placement Shapes</h1>
+<div class="level1">
+
+<p>
+Shapes are polygon shapes where objects are placed in mass numbers.
+</p>
+
+<p>
+Turn on view shapes button in main menu.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=ab2747&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Menu-View-Shapes.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Menu-View-Shapes.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_059.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Make sure add polygon button from main menu is selected, you see mouse cursor to change
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=d03f42&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Menu-Add-Polygon.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Menu-Add-Polygon.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_041.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Layers manager select shapes tab<br>
+
+Click add new layer button button, give it name “forest 1”, click ok<br>
+
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=29710e&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Create-Polygon-Setup.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Create-Polygon-Setup.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_004.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Now LMB click points to scene view to create a polygon
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=bdc5f1&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Create-Polygon-Open.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Create-Polygon-Open.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_066.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Once you're done double LMB click to close the polygon
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=04a0cf&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Create-Polygon-Closed.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Create-Polygon-Closed.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_064.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Layer manager select objects tab<br>
+
+Add new layer button, give it name “forest 1”, click ok<br>
+
+Unselect “add polygon” button<br>
+
+Click to select the polygon in the scene view
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=6576cd&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Selected-Polygon.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Selected-Polygon.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_067.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click RMB → Fill (add new objects)
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=567208&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Polygon-Fill.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Polygon-Fill.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_009.png" class="mediacenter" alt=""></a>
+</p>
+<ol>
+<li class="level1"><div class="li"> fill area dialog select objects, available libraries untick “a3 structures”</div>
+</li>
+<li class="level1"><div class="li"> under available templates, click “select all” button</div>
+</li>
+<li class="level1"><div class="li"> properties → preset name: add some name like forest 1 etc</div>
+</li>
+<li class="level1"><div class="li"> clusterisation options → object density 60</div>
+</li>
+</ol>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=9ac24c&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Polygon-Fill-Area.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Polygon-Fill-Area.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_046.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click ok
+</p>
+
+<p>
+Now objects are placed inside your selected polygon. Depending on what 
+kind of settings you used it might take some time or fail completely if 
+the settings are wrong. However with density 60 and others default, it 
+will work just nicely.
+</p>
+
+<p>
+While the objects are placed according to your “forest 1” <strong>shape</strong> layer, the objects are actually placed in the “forest 1” <strong>objects</strong> layer.
+</p>
+
+<p>
+(note the image layer says “rocks 1” instead, no worries)
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=856ef8&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layers-Manager-Forest.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Layers-Manager-Forest.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_065.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+It is important to know the difference between shapes and objects layers. Very tricky :)
+</p>
+
+<p>
+<strong>Select Shape</strong>
+</p>
+
+<p>
+Very simple, LMB click shape to select it.
+</p>
+
+<p>
+<strong>Moving Shapes</strong>
+</p>
+
+<p>
+Move it by first LMB click to select shape and another LMB click keeping
+ it pressed while moving your mouse. Release LMB to drop shape to a new 
+position.
+</p>
+
+<p>
+<strong>Delete Shape</strong>
+</p>
+
+<p>
+LMB click shape to select it, hit DEL key to delete. Be careful.
+</p>
+
+<p>
+Or you can delete all shapes in a layer by layers manager → shapes tab →
+ RMB wanted layer in our case “forest 1” and choose “remove”, click yes 
+for confirmation about deleting all linked shapes in the layer.
+</p>
+
+</div>
+
+<h1 class="sectionedit22" id="terrain_processor">Terrain Processor</h1>
+<div class="level1">
+
+<p>
+Create some shapes in terrain builder, then export them to be used in terrain processor.
+</p>
+
+<p>
+Use file → export → shapes. Source selections are; document is all 
+shapes on the whole project, current layer well current selected layer, 
+selection of layers is all currently selected layers. Pretty obvious 
+stuff except the document.
+</p>
+
+<p>
+Destination file use “…” button to browse to Source\TerrainBuilder\ 
+directory and give file name “forest_1.shp”, then click ok to export.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=fb83b1&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Shape-Export.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Shape-Export.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_063.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Next you need to create new empty directory, make this as:
+</p>
+<pre class="code">\tut\tut_tutorial_terrain\Source\TerrainProcessor\</pre>
+
+<p>
+Open terrain processor and create new project by “create new” button, 
+browse to the new directory you just made, give this project a name of 
+“forest_1.tpp”, so it would be:
+</p>
+<pre class="code">\tut\tut_tutorial_terrain\Source\TerrainProcessor\forest_1.tpp</pre>
+
+<p>
+That is not really important which paths and file names you use, but for this tutorial purposes we use those.
+</p>
+
+<p>
+Now terrain processor is open and you are ready to setup your project.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=050eba&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Add-Task.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Add-Task.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_056.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click “add new task” button.
+</p>
+
+<p>
+Select “area: high-density cluster”
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=17f043&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Task-Selection.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Task-Selection.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_011.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click ok.
+</p>
+
+<p>
+Click green plus button
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=33faf0&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Edit-Task-Green-Plus.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Edit-Task-Green-Plus.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_042.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+This adds new object. Click on the “new object name” to edit it and type in lets say “t_FicusB1s_F”.
+</p>
+
+<p>
+This “t_FicusB1s_F” is a template name from terrain builder, it is 
+basically t_FicusB1s_F.p3d model. You can get those template names from 
+terrain builder, first select an object from library manager, then on 
+the right hand side at “template properties”, “template general” click 
+“template name” and then you can copy to clipboard CTRL-C that template 
+name.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=e65157&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Copy-Template-Name.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Copy-Template-Name.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_053.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+To add that template name to terrain processor, just click on the “New 
+object name” and clear it out, then copy-paste CTRL-V the template name 
+from terrain builder to it. Add what template/p3d names you want to 
+place in this forest 1 polygon shape. You might add couple of rock types
+ and various trees/bushes.
+</p>
+
+<p>
+When you are done adding templates/objects, select shapefile tab. Use “…” to browse into “forest_1.shp” file. Click ok.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=f6772a&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Edit-Task-Shapefile.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Edit-Task-Shapefile.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_015.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Save your terrain processor project.
+</p>
+
+<p>
+Click “Execute tasks” green run button to start.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=b5d25d&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Execute-Tasks.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Execute-Tasks.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_038.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+It takes a while depending on how large shape file you have and what 
+kind of settings you used, don't click the ok button, just wait 
+patiently. When terrain processor is done it will clearly say “All 
+completed”.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=60ed1b&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Tasks-Completed.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Processor-Tasks-Completed.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_032.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Please note that if terrain processor freezes or gets stuck, it just 
+remains this way and nothing happens, so while I just said “wait 
+patiently” it doesn't mean you have to wait hours heh. You really need 
+to start with small projects one-step-at-the-time not to get frustrated 
+with terrain processor :)
+</p>
+
+<p>
+Anyways in our case terrain processor successfully completed, all good. Click ok to close “Run” window.
+</p>
+
+<p>
+It should have now saved “\tut\tut_tutorial_terrain\Source\TerrainProcessor\forest_1.lbt” file.
+</p>
+
+<p>
+Open terrain builder and load your project.
+</p>
+
+<p>
+Use file → import → objects, use “pick files” button to browse into “forest_1.lbt” file
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=b56bdc&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Import-Objects-From-File.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Import-Objects-From-File.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_030.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click ok to import. Wait patiently while terrain builder imports, it 
+takes a moment depending on how many hundreds of thousands (heh) objects
+ are you importing.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=c479db&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Import-Objects-Complete.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Import-Objects-Complete.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_031.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+You can see the increased template library objects count after each object placed by terrain processor.
+</p>
+
+</div>
+
+<h1 class="sectionedit23" id="roads_-_create">Roads - Create</h1>
+<div class="level1">
+
+<p>
+Roads are created using “polylines”.
+</p>
+
+<p>
+Layer manager → shapes, click “add new layer” button, give it name “road 1”, click ok.
+</p>
+
+<p>
+On main menu click “add polyline” button so its selected.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=397ae4&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Menu-Add-Polyline.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Menu-Add-Polyline.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_029.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Now go to scene view, use LMB to place dots to create a polyline as a road. When done double LMB click to end the road.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=2db3f3&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Roads-Polylines.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Roads-Polylines.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_033.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Your first road polyline is done. Now you noticed that polylines do not 
+“close” as they are just lines (not polygons which has to be closed), so
+ you can draw these lines anywhere you want without closing them (you 
+just “end” them).
+</p>
+
+<p>
+<strong>Edit Polyline (road)</strong>
+</p>
+
+<p>
+You can edit polyline (which is your road) by making sure “add polyline” is unselected and “edit selection” button is selected.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=163140&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Menu-Edit-Selection.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Menu-Edit-Selection.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_037.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Then LMB click to one polyline point, not the line but a point. LMB 
+press and drag the point to move it, release LMB to drop it to a new 
+position.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=6a2a5b&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Edit-Polyline.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Scene-View-Edit-Polyline.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_036.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+If you click the line instead of a point, then the whole polyline will move, be careful on your selection.
+</p>
+
+</div>
+
+<h1 class="sectionedit24" id="roads_-_database_properties">Roads - Database Properties</h1>
+<div class="level1">
+
+<p>
+<strong>Roads Database Properties</strong>
+</p>
+
+<p>
+RMB your road polyline and choose “database properties”.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=00cda1&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Polyline-Database-Properties.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Polyline-Database-Properties.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_035.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+On Shapes Database dialog click “new” button.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=c91667&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Shapes-Database-New.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Shapes-Database-New.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_026.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+New field dialog give name: “ID” and select type: “integer”, click ok.
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=bf8ca1&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Shapes-Database-New-Field.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Shapes-Database-New-Field.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_034.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Click new, new field dialog give name: “ORDER” and select type: “integer”, click ok<br>
+
+Click the ID cell, type number 1<br>
+
+Click the ORDER cell, type number 0
+</p>
+
+<p>
+<a href="https://pmc.editing.wiki/lib/exe/fetch.php?tok=b3eab4&amp;media=https%3A%2F%2Fpmc.editing.wiki%2Fimages%2FPMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Shapes-Database-Values.png" class="media" title="https://pmc.editing.wiki/images/PMC-ArmA-3-Ultimate-Terrain-Tutorial-Terrain-Builder-Shapes-Database-Values.png"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/fetch_027.png" class="mediacenter" alt=""></a>
+</p>
+
+<p>
+Shapes database dialog, click ok button to close
+</p>
+
+<p>
+Save your project.
+</p>
+
+</div>
+
+<h1 class="sectionedit25" id="roads_-_export">Roads - Export</h1>
+<div class="level1">
+
+<p>
+How to export road shape files.
+</p>
+
+<p>
+Create new directory into your data dir, name it “roads”, it would be:
+</p>
+<pre class="code">\tut\tut_tutorial_terrain\data\roads\</pre>
+<ol>
+<li class="level1"><div class="li"> use file → export → shapes</div>
+</li>
+<li class="level1"><div class="li"> select “document”</div>
+</li>
+<li class="level1"><div class="li"> use “…” to browse into \tut\tut_tutorial_terrain\data\roads\ dir and use file name “roads.shp”, click ok</div>
+</li>
+</ol>
+
+<p>
+Terrain Builder should say like export shp done, click ok.
+</p>
+
+<p>
+<strong>Create RoadsLib.cfg</strong>
+</p>
+
+<p>
+Browse to dir, create new text file name “RoadsLib.cfg” and copy paste the following.
+</p>
+
+<p>
+<strong>RoadsLib.cfg:</strong>
+</p>
+<pre class="code cpp"><span class="co1">// 1 = Country road</span>
+<span class="co1">// 2 = City road</span>
+<span class="co1">// 3 = Gravel road</span>
+<span class="co1">// 4 = Bike road</span>
+<span class="co1">// 5 = Path</span>
+<span class="kw2">class</span> RoadTypesLibrary
+<span class="br0">{</span>
+	<span class="kw2">class</span> Road0001
+	<span class="br0">{</span>
+		width <span class="sy1">=</span> <span class="nu0">10</span><span class="sy4">;</span>
+		mainStrTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadtarmac_main_road_ca.paa"</span><span class="sy4">;</span> <span class="co1">// lowercase!</span>
+		mainTerTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadtarmac_main_road_end_ca.paa"</span><span class="sy4">;</span>
+		mainMat <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadtarmac_main_road.rvmat"</span><span class="sy4">;</span>
+		map <span class="sy1">=</span> <span class="st0">"road"</span><span class="sy4">;</span>
+		AIpathOffset <span class="sy1">=</span> <span class="nu0">0</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+	<span class="kw2">class</span> Road0002
+	<span class="br0">{</span>
+		width <span class="sy1">=</span> <span class="nu0">8</span><span class="sy4">;</span>
+		mainStrTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadtarmac_main_road_ca.paa"</span><span class="sy4">;</span> <span class="co1">// lowercase!</span>
+		mainTerTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadtarmac_main_road_end_ca.paa"</span><span class="sy4">;</span>
+		mainMat <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadtarmac_main_road.rvmat"</span><span class="sy4">;</span>
+		map <span class="sy1">=</span> <span class="st0">"road"</span><span class="sy4">;</span>
+		AIpathOffset <span class="sy1">=</span> <span class="nu16">2.5</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+	<span class="kw2">class</span> Road0003
+	<span class="br0">{</span>
+		width <span class="sy1">=</span> <span class="nu0">3</span><span class="sy4">;</span>
+		mainStrTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roaddirt_road_ca.paa"</span><span class="sy4">;</span> <span class="co1">// lowercase!</span>
+		mainTerTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roaddirt_road_end_ca.paa"</span><span class="sy4">;</span>
+		mainMat <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roaddirt_road.rvmat"</span><span class="sy4">;</span>
+		map <span class="sy1">=</span> <span class="st0">"track"</span><span class="sy4">;</span>
+		AIpathOffset <span class="sy1">=</span> <span class="nu0">0</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+	<span class="kw2">class</span> Road0004
+	<span class="br0">{</span>
+		width <span class="sy1">=</span> <span class="nu16">2.5</span><span class="sy4">;</span>
+		mainStrTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadtarmac_highway_ca.paa"</span><span class="sy4">;</span> <span class="co1">// lowercase!</span>
+		mainTerTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadtarmac_highway_end_ca.paa"</span><span class="sy4">;</span>
+		mainMat <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadtarmac_highway.rvmat"</span><span class="sy4">;</span>
+		map <span class="sy1">=</span> <span class="st0">"main road"</span><span class="sy4">;</span>
+		AIpathOffset <span class="sy1">=</span> <span class="nu0">3</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+	<span class="kw2">class</span> Road0005
+	<span class="br0">{</span>
+		width <span class="sy1">=</span> <span class="nu0">1</span><span class="sy4">;</span>
+		mainStrTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roaddirt_path_ca.paa"</span><span class="sy4">;</span> <span class="co1">// lowercase!</span>
+		mainTerTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roaddirt_path_end_ca.paa"</span><span class="sy4">;</span>
+		mainMat <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roaddirt_path.rvmat"</span><span class="sy4">;</span>
+		map <span class="sy1">=</span> <span class="st0">"track"</span><span class="sy4">;</span>
+		AIpathOffset <span class="sy1">=</span> <span class="nu0">0</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+	<span class="kw2">class</span> Road0006
+	<span class="br0">{</span>
+		width <span class="sy1">=</span> <span class="nu0">10</span><span class="sy4">;</span>
+		mainStrTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadconcrete_city_road_ca.paa"</span><span class="sy4">;</span> <span class="co1">// lowercase!</span>
+		mainTerTex <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadconcrete_city_road_end_ca.paa"</span><span class="sy4">;</span>
+		mainMat <span class="sy1">=</span> <span class="st0">"a3<span class="es1">\r</span>oads_f<span class="es1">\r</span>oads_ae\data\surf_roadconcrete_city_road.rvmat"</span><span class="sy4">;</span>
+		map <span class="sy1">=</span> <span class="st0">"track"</span><span class="sy4">;</span>
+		AIpathOffset <span class="sy1">=</span> <span class="nu16">2.5</span><span class="sy4">;</span>
+	<span class="br0">}</span><span class="sy4">;</span>
+<span class="br0">}</span><span class="sy4">;</span></pre>
+
+<p>
+<strong>Configure BuldozerTools</strong>
+</p>
+
+<p>
+BuldozerTools by Lappihuan was installed with Mikero Tools. If not, you 
+need to go back to Mikero Tools homepage and download BuldozerTools from
+ there and unpack to p:\scripts\ directory.
+</p>
+
+<p>
+Browse to P:\scripts\ directory, open userconfig.sqf in text editor and replace the path to roads with this:
+</p>
+<pre class="code cpp">roadpath <span class="sy1">=</span> <span class="st0">"P:/tut/tut_tutorial_terrain/Data/Roads/"</span><span class="sy4">;</span></pre>
+
+<p>
+If you do not configure userconfig.sqf properly the roads will not show up in buldozer.
+</p>
+
+<p>
+Start buldozer and in there press 1 which is buldozertools “reload roads”, your roads should now appear.
+</p>
+
+</div>
+
+<h1 class="sectionedit26" id="notes">Notes</h1>
+<div class="level1">
+
+<p>
+PMC ArmA 3 Ultimate Terrain Tutorial is on initial phase right now, more details will be added in the future.
+</p>
+
+<p>
+You can use <a href="https://www.pmctactical.org/contact.php" class="urlextern" title="https://www.pmctactical.org/contact.php" rel="nofollow">PMC Tactical Contact</a> to get in touch with us, for any fixes, suggestions or questions. You should join <a href="https://discord.gg/arma" class="urlextern" title="https://discord.gg/arma" rel="nofollow">ArmA discord chat</a>, all you need is a browser. Check out #terrain_makers for some excellent terrain talk.
+</p>
+
+</div>
+
+                    <!-- wikipage stop -->
+                                    </div>
+
+                <div class="docInfo"><bdi>arma3/terrain/ultimate-terrain-tutorial.txt</bdi> · Last modified: 2018-09-21 13:14 by <bdi>snakeman</bdi></div>
+
+                            </div></div><!-- /content -->
+
+            <hr class="a11y">
+
+            <!-- PAGE ACTIONS -->
+            <div id="dokuwiki__pagetools">
+                <h3 class="a11y">Page Tools</h3>
+                <div class="tools">
+                    <ul>
+                        <li><a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:ultimate-terrain-tutorial&amp;do=edit" class="action source" accesskey="v" rel="nofollow" title="Show pagesource [V]"><span>Show pagesource</span></a></li><li><a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:ultimate-terrain-tutorial&amp;do=revisions" class="action revs" accesskey="o" rel="nofollow" title="Old revisions [O]"><span>Old revisions</span></a></li><li><a href="https://pmc.editing.wiki/doku.php?id=arma3:terrain:ultimate-terrain-tutorial&amp;do=backlink" class="action backlink" rel="nofollow" title="Backlinks"><span>Backlinks</span></a></li><li><a href="#dokuwiki__top" class="action top" accesskey="t" rel="nofollow" title="Back to top [T]"><span>Back to top</span></a></li>                    </ul>
+                </div>
+            </div>
+        </div><!-- /wrapper -->
+
+        
+<!-- ********** FOOTER ********** -->
+<div id="dokuwiki__footer"><div class="pad">
+    <div class="license">Except where otherwise noted, content on this wiki is licensed under the following license: <bdi><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license" class="urlextern">CC Attribution-Noncommercial-Share Alike 4.0 International</a></bdi></div>
+    <div class="buttons">
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" rel="license"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/cc-by-nc-sa.png" alt="CC Attribution-Noncommercial-Share Alike 4.0 International"></a>        <a href="http://www.dokuwiki.org/donate" title="Donate"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/button-donate.gif" alt="Donate" width="80" height="15"></a>
+        <a href="http://php.net/" title="Powered by PHP"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/button-php.gif" alt="Powered by PHP" width="80" height="15"></a>
+        <a href="http://validator.w3.org/check/referer" title="Valid HTML5"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/button-html5.png" alt="Valid HTML5" width="80" height="15"></a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" title="Valid CSS"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/button-css.png" alt="Valid CSS" width="80" height="15"></a>
+        <a href="http://dokuwiki.org/" title="Driven by DokuWiki"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/button-dw.png" alt="Driven by DokuWiki" width="80" height="15"></a>
+    </div>
+</div></div><!-- /footer -->
+
+<!-- PMC site specific stuff -->
+<center>
+<script async="" src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/adsbygoogle.js"></script>
+<!-- PMC Tactical Responsive -->
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5488648257223403" data-ad-slot="8087194820" data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</center>
+
+    </div></div><!-- /site -->
+
+    <div class="no"><img src="arma3%20terrain%20ultimate-terrain-tutorial%20[PMC%20Editing%20Wiki]_soubory/indexer.gif" alt="" width="2" height="1"></div>
+    <div id="screen__mode" class="no"></div>
+
+</body></html>
