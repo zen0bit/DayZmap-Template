@@ -1,0 +1,41 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: surfaces\data\terrain\cp_rock.rvmat
+//Produced from mikero's Dos Tools Dll version 6.44
+//'now' is Sat Dec 08 08:07:46 2018 : 'file' last modified on Tue Nov 20 10:43:01 2018
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+ambient[] = {0.9,0.9,0.9,1};
+diffuse[] = {0.9,0.9,0.9,1};
+forcedDiffuse[] = {0.02,0.02,0.02,1};
+specular[] = {1,1,1,1};
+specularPower = 1;
+emmisive[] = {0,0,0,0};
+PixelShaderID = "NormalMapDiffuse";
+VertexShaderID = "VSTerrain";
+class Stage1
+{
+	texture = "dz\surfaces\data\terrain\cp_rock_nopx.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {10,0,0};
+		up[] = {0,10,0};
+		dir[] = {0,0,10};
+		pos[] = {0,0,0};
+	};
+};
+class Stage2
+{
+	texture = "dz\surfaces\data\terrain\cp_rock_ca.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {10,0,0};
+		up[] = {0,10,0};
+		dir[] = {0,0,10};
+		pos[] = {0,0,0};
+	};
+};
